@@ -45,6 +45,16 @@ header {
     list-style: none;
 
 }
+.navigation .user-icon:hover{
+    border: none;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+}
+.navigation .user-icon{
+    border: none;
+    font-size: 18px;
+}
 
 .bdr {
     border: 2px solid rgb(43, 42, 42);
@@ -202,6 +212,12 @@ input[type="checkbox"] {
     color: #000;
     font-weight: 900;
     transform: scale(1.1);
+}
+
+.icon i{
+    margin-left: -20px;
+    font-size: 18px;
+    color: #000;
 }
 
 .footer-content {
