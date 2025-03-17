@@ -31,7 +31,7 @@
       <section class="primary-section">
         <div class="section-border">
           <div class="leather-part">
-            <img src="asset/leather.jpg" alt="" />
+            <img src="asset/leather.jpg" alt="" class="image-part" onclick="enlargeimage(this)" />
             <div class="lather-des">
               <h2>LEATHER</h2>
               <p>
@@ -43,6 +43,11 @@
             </div>
           </div>
         </div>
+        <script>
+          function enlargeimage(img){
+            img.classList.toggle("enlarged")
+          }
+        </script>
       </section>
 
       <section class="primary-section">
@@ -57,14 +62,14 @@
                 quidem autem natus saepe?
               </p>
             </div>
-            <img src="asset/jeans.jpg" alt="" />
+            <img src="asset/jeans.jpg" alt="" class="image-part" onclick="enlargeimage(this)" />
           </div>
         </div>
       </section>
       <section class="primary-section">
         <div class="section-border">
           <div class="leather-part">
-            <img src="asset/watch.jpg" alt="" />
+            <img src="asset/watch.jpg" alt="" class="image-part" onclick="enlargeimage(this)" />
             <div class="lather-des">
               <h2>LEVI'S JEANS</h2>
               <p>
